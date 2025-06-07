@@ -1,5 +1,5 @@
 describe('seamsee Flow Test', () => {
-  it('Show Qr Code after confirmm', () => { 
+  it('Show Qr Code after confirm', () => { 
     cy.visit('https://dev-only-danika-seamsee.0jpzrz.easypanel.host/')
     cy.contains('button', 'เข้าสู่หน้าเซียมซี').click()
     cy.contains('span', 'ไทย').click()
